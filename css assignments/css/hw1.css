@@ -1,0 +1,149 @@
+header{
+	background:url('../images/flywheel.jpg') no-repeat fixed;
+    background-size:cover; 
+    
+    }
+h1{
+	
+	text-transform:uppercase;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:Claredon;
+	font-size:xx-large;
+
+}
+nav{
+	
+	
+	text-align:center;
+}
+nav a{
+	
+	color:#000000;
+	border-radius:7%;
+	text-decoration: none;
+	width:12%;
+     
+	display: inline-block; 
+	padding:12px;
+	margin:30px;
+	background:radial-gradient(#ECECEC 1%,transparent); 
+    
+} 
+	
+a{
+	color:#000000;
+}
+section{
+	
+	font-weight: bold;
+	font-size: large;
+
+}
+
+
+
+}
+h2{
+	color:#000080;
+	text-transform:uppercase;
+	font-style: normal;
+}
+
+body{
+    padding:8px;
+	margin:4px;
+	}
+.active{
+	background-color:#FFFFFF;
+	color:#053264;
+}
+.left{
+	
+	background-color:#636A22;
+	text-align:center;
+	
+	width:22%;
+	
+	margin-right:8px;
+
+	border:4px;
+	padding: 1px;
+	display:inline-block;
+
+	float:left;
+    
+	
+
+}
+.right{
+	width:72%;
+	height:93%;
+	display:inline-block;
+	clear:both;
+	
+}
+img{
+	width:50%;
+	/*height:100%;*/
+	text-align: center;
+	margin:22px;
+	border-style:solid;
+	margin-bottom:21%;
+
+	
+	display: inline-block;
+
+}
+th{
+
+	background:-webkit-linear-gradient(#a1ae29 4%,#94BD33 88%);
+	background:linear-gradient(#a1ae29 4%,#94BD33 88%);
+    background:-moz-linear-gradient(#a1ae29 4%,#94BD33 88%);
+
+    border-bottom:thick;
+    border-color: #E1F80E; 	
+    -webkit-border-radius: 6px 6px 0px 0px;
+    padding:12px;
+    color:#FFFFFF;
+    font-size:medium;
+    text-align: center;
+
+
+}
+table{
+	width:76%;
+	margin-left:7%;
+	border-color: transparent;
+	padding:1px;
+	font-family:arial,serif;
+    font-weight:bold;
+    font-weight: normal;
+    overflow:auto;
+}
+tr{
+	background-color:#DFFAA0;
+    opacity:.8;
+
+}
+td{
+	padding:8px;
+	text-align:center;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	color:#000000;
+	background-color:#DFFAA0;
+	text-shadow:4px 4px 12px #00ff00; 
+
+
+}
+tr:first-child>th:first-child{
+	text-align:left;
+
+} 
+tr>td:first-child{
+	text-align:left;
+}  
+tr:hover{
+	opacity:1;
+}
